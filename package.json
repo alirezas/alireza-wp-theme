@@ -1,0 +1,27 @@
+{
+  "name": "wp-alireza",
+  "version": "1.0.0",
+  "description": "Wordpress Theme for Alireza.ws ===",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alirezas/alireza-wp-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alirezas/alireza-wp-theme/issues"
+  },
+  "homepage": "https://github.com/alirezas/alireza-wp-theme#readme"
+}
