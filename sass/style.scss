@@ -1,1 +1,81 @@
+/*!
+Theme Name: alireza
+Theme URI: http://www.alireza.ws/
+Author: Alireza Sarabchi
+Author URI: http://www.alireza.ws
+Description: Theme for alireza.ws
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: alireza
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+alireza is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
+*/
+
+@import 'reset';
 @import 'font';
+
+html {
+	font-size: 18px;
+}
+body {
+	font-family: Sahel, sans-serif;
+}
+a {
+	text-decoration: none;
+}
+
+.site {
+	padding: 2.778rem;
+}
+.site-content {
+	max-width: 36.67rem;
+	margin: auto;
+}
+
+.site-header {}
+.site-title {
+	font-size: 1.778rem;
+	font-weight: 900;
+	color: #333C4A;
+	margin: 0;
+	padding: 0;
+	a {
+		color: #333C4A;
+		&:hover {
+			color: #333C4A;
+		}
+	}
+}
+.site-description {
+	color: #333C4A;
+	font-size: 1rem;
+	margin: 0;
+	padding: 0;
+}
+
+.entry-title {
+	color: #333C4A;
+	font-size: 2.111rem;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+	padding: 0;
+	a {
+		color: #333C4A;
+		&:hover {
+			color: #333C4A;
+		}
+	}
+}
+.entry-meta {
+	font-size: 0.7778rem;
+	color: #b9c3da;
+}
