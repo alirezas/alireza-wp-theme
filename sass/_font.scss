@@ -1,26 +1,32 @@
 @font-face {
   font-family: Sahel;
-  src: url('../font/Sahel.eot');
-  src: url('../font/Sahel.eot?#iefix') format('embedded-opentype'),
-       url('../font/Sahel.woff') format('woff'),
-       url('../font/Sahel.ttf') format('truetype');
+  src: url('font/Sahel.eot');
+  src: url('font/Sahel.eot?#iefix') format('embedded-opentype'),
+       url('font/Sahel.woff2') format('woff2'),
+       url('font/Sahel.woff') format('woff'),
+       url('font/Sahel.ttf') format('truetype'),
+       url('font/Sahel.svg#Sahel') format('svg');
   font-weight: normal;
 }
 
 @font-face {
   font-family: Sahel;
-  src: url('../font/Sahel-Bold.eot');
-  src: url('../font/Sahel-Bold.eot?#iefix') format('embedded-opentype'),
-       url('../font/Sahel-Bold.woff') format('woff'),
-       url('../font/Sahel-Bold.ttf') format('truetype');
+  src: url('font/Sahel-Bold.eot');
+  src: url('font/Sahel-Bold.eot?#iefix') format('embedded-opentype'),
+       url('font/Sahel-Bold.woff2') format('woff2'),
+       url('font/Sahel-Bold.woff') format('woff'),
+       url('font/Sahel-Bold.ttf') format('truetype'),
+       url('font/Sahel-Bold.svg#Sahel-Bold') format('svg');
   font-weight: bold;
 }
 
 @font-face {
   font-family: Sahel;
-  src: url('../font/Sahel-Black.eot');
-  src: url('../font/Sahel-Black.eot?#iefix') format('embedded-opentype'),
-       url('../font/Sahel-Black.woff') format('woff'),
-       url('../font/Sahel-MedBlackium.ttf') format('truetype');
+  src: url('font/Sahel-Black.eot');
+  src: url('font/Sahel-Black.eot?#iefix') format('embedded-opentype'),
+       url('font/Sahel-Black.woff2') format('woff2'),
+       url('font/Sahel-Black.woff') format('woff'),
+       url('font/Sahel-Black.ttf') format('truetype'),
+       url('font/Sahel-Black.svg#Sahel-Black') format('svg');
   font-weight: 900;
 }

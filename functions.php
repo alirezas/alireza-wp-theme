@@ -79,7 +79,7 @@ add_action( 'after_setup_theme', 'alireza_setup' );
  * @global int $content_width
  */
 function alireza_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'alireza_content_width', 640 );
+	$GLOBALS['content_width'] = apply_filters( 'alireza_content_width', 790 );
 }
 add_action( 'after_setup_theme', 'alireza_content_width', 0 );
 

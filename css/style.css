@@ -750,20 +750,20 @@ object {
 
 @font-face {
   font-family: Sahel;
-  src: url("../font/Sahel.eot");
-  src: url("../font/Sahel.eot?#iefix") format("embedded-opentype"), url("../font/Sahel.woff") format("woff"), url("../font/Sahel.ttf") format("truetype");
+  src: url("font/Sahel.eot");
+  src: url("font/Sahel.eot?#iefix") format("embedded-opentype"), url("font/Sahel.woff2") format("woff2"), url("font/Sahel.woff") format("woff"), url("font/Sahel.ttf") format("truetype"), url("font/Sahel.svg#Sahel") format("svg");
   font-weight: normal; }
 
 @font-face {
   font-family: Sahel;
-  src: url("../font/Sahel-Bold.eot");
-  src: url("../font/Sahel-Bold.eot?#iefix") format("embedded-opentype"), url("../font/Sahel-Bold.woff") format("woff"), url("../font/Sahel-Bold.ttf") format("truetype");
+  src: url("font/Sahel-Bold.eot");
+  src: url("font/Sahel-Bold.eot?#iefix") format("embedded-opentype"), url("font/Sahel-Bold.woff2") format("woff2"), url("font/Sahel-Bold.woff") format("woff"), url("font/Sahel-Bold.ttf") format("truetype"), url("font/Sahel-Bold.svg#Sahel-Bold") format("svg");
   font-weight: bold; }
 
 @font-face {
   font-family: Sahel;
-  src: url("../font/Sahel-Black.eot");
-  src: url("../font/Sahel-Black.eot?#iefix") format("embedded-opentype"), url("../font/Sahel-Black.woff") format("woff"), url("../font/Sahel-MedBlackium.ttf") format("truetype");
+  src: url("font/Sahel-Black.eot");
+  src: url("font/Sahel-Black.eot?#iefix") format("embedded-opentype"), url("font/Sahel-Black.woff2") format("woff2"), url("font/Sahel-Black.woff") format("woff"), url("font/Sahel-Black.ttf") format("truetype"), url("font/Sahel-Black.svg#Sahel-Black") format("svg");
   font-weight: 900; }
 
 html {
@@ -773,7 +773,11 @@ body {
   font-family: Sahel, sans-serif; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #191919;
+  transition: all .3s; }
+  a:hover, a:visited {
+    color: #222222; }
 
 .site {
   padding: 2.778rem; }
@@ -781,6 +785,13 @@ a {
 .site-content {
   max-width: 36.67rem;
   margin: auto; }
+
+.site-header {
+  text-align: center;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 60px;
+  margin: auto auto 90px;
+  width: 80%; }
 
 .site-title {
   font-size: 1.778rem;
@@ -794,15 +805,21 @@ a {
       color: #333C4A; }
 
 .site-description {
-  color: #333C4A;
+  color: #b8bdc5;
   font-size: 1rem;
   margin: 0;
   padding: 0; }
 
+.post {
+  margin-bottom: 130px; }
+
+.entry-header {
+  text-align: center; }
+
 .entry-title {
   color: #333C4A;
   font-size: 2.111rem;
-  font-weight: bold;
+  font-weight: 900;
   margin: 0 0 10px 0;
   padding: 0; }
   .entry-title a {
@@ -812,4 +829,28 @@ a {
 
 .entry-meta {
   font-size: 0.7778rem;
-  color: #b9c3da; }
+  color: #b8bdc5; }
+
+.entry-thumbnail {
+  margin: 30px -50px; }
+  .entry-thumbnail img {
+    width: 100%; }
+
+.entry-content {
+  line-height: 1.8; }
+  .entry-content a {
+    border-bottom: 1px solid #a4a4a4;
+    color: #191919;
+    transition: all .3s; }
+    .entry-content a:hover, .entry-content a:visited {
+      border-color: #191919;
+      color: #222222; }
+
+.posts-navigation,
+.post-navigation {
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  padding: 20px 0; }
+  .posts-navigation .nav-previous,
+  .post-navigation .nav-previous {
+    text-align: left; }

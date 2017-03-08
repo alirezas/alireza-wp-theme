@@ -25,6 +25,10 @@
 		<?php
 		endif; ?>
 	</header><!-- .entry-header -->
+	
+	<div class="entry-thumbnail">
+		<?php the_post_thumbnail(); ?>
+	</div>
 
 	<div class="entry-content">
 		<?php
@@ -42,6 +46,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php alireza_entry_footer(); ?>
+		<?php the_tags('', ' ', ''); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
